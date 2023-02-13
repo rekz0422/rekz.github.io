@@ -1,0 +1,49 @@
+
+h1 {
+    font-family: font1;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+
+h5 {
+    font-size: 35px;
+    font-family: the_monkey;
+}
+
+li {
+    font-size: 18px;
+    font-family: flick;
+}
+
+a {
+    text-decoration: none;
+    color: #242222;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(18, 84, 125);
+}
+a:visited{
+    color: rgb(18, 84, 125);
+}
+
+
+/* zoom in - out gambar  */
+.inner-ic img {
+    transform: all 1.5s ease;
+}
+
+.inner-ic:hover img {
+    transform: scale(1.2);
+}
+
+/* end zoom in out  */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

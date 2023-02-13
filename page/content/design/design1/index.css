@@ -1,0 +1,29 @@
+
+/* sidebar  */
+.sidebar{
+    background-color: #62a7d2;
+    position: fixed;
+    padding-top: 3rem;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    bottom: 0;
+}
+.sidebar a{ 
+    cursor: pointer;   
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar a:hover{
+    cursor: pointer;
+    color: white;
+}
+/* end sidebar  */
+
+/* content  */
+.content{
+    margin-left: 300px;
+}
+/* end content  */

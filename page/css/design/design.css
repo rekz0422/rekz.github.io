@@ -1,0 +1,42 @@
+body{
+    background-color:aliceblue;
+}
+.modal{
+    background:linear-gradient(rgba(255, 255, 255, 0.05),rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.851));
+    backdrop-filter: blur(3px);
+
+}
+.modal-content{
+    background:linear-gradient(rgba(220, 247, 19, 0.938),rgba(132, 213, 20, 0.259));
+    backdrop-filter: blur(5px);
+}
+.card h3{
+    cursor: pointer;
+}
+.card h3:hover{
+    cursor: pointer;
+} 
+
+
+/* zoom in - out gambar  */
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transform: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.2);
+}
+
+.inner-ic img {
+    transform: all 1.5s ease;
+}
+
+.inner-ic:hover img {
+    transform: scale(1.2);
+}
+
+/* end zoom in out  */

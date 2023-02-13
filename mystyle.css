@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    overflow: auto;
+}
+/* page  */
+nav li{
+    font-size: 22px;
+}
+.offcanvas-body{
+    z-index: 1;
+}
+/* end page  */
+
+/* footer  */
+#footer p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+/* end footer  */
+/* font  */
+
+@font-face {
+    font-family: font1;
+    src: url(font/pink_yellow_black/PinkYellowBlack.ttf)
+}
+
+@font-face{
+    font-family: the_monkey;
+    src: url(font/the_monkey_2/TheMonkeyRegular.ttf);
+}
+/* font end */
