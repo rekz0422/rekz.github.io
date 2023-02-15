@@ -1,3 +1,26 @@
-body{
+body {
     background-color: rgb(77, 196, 156);
+}
+
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+
+.gambar {
+    width: 200px;
+    height: 200px;
+    background-image: url("gambar.jpg");
+    animation: putar 2s infinite linear;
+}
+
+@keyframes putar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
