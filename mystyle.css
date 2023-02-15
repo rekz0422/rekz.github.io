@@ -2,6 +2,38 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+nav {
+    background-color: #333;
+    /* warna latar belakang navbar */
+}
+
+nav ul {
+    list-style: none;
+    /* menghilangkan bullet list */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    /* mengatur posisi menu secara horizontal */
+}
+
+nav li a {
+    display: block;
+    /* membuat menu menjadi kotak yang bisa diklik */
+    color: white;
+    /* warna teks menu */
+    text-align: center;
+    /* mengatur posisi teks menu */
+    padding: 14px 16px;
+    /* memberikan padding pada teks menu */
+    text-decoration: none;
+    /* menghilangkan underline pada teks menu */
+}
+
+
 h1 {
     color: rgb(240, 0, 76);
     font-size: 36px;
